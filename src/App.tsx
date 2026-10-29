@@ -48,6 +48,7 @@ export default function App(flowContext: FlowContext) {
       routes: [
         { pattern: '/manage/call-logs' },   // your own call logs
         { pattern: '/manage/*/call-logs' }, // call logs under a domain or user
+        { pattern: "/home/domain/call-logs" },
       ],
       component: RecordingRowButton,
     });
